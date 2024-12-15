@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 14px; */
+    color: 490F00;
+}
+
+.header-section {
+    width: 100%;
+    height: 163px;
+    background: rgb(217, 142, 50);
+    background: linear-gradient(90deg, rgba(217, 142, 50, 1) 0%, rgba(235, 174, 77, 1) 14%, rgba(242, 181, 107, 1) 60%, rgba(251, 166, 39, 1) 100%);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(45, 24, 24);
+    letter-spacing: 0.8px;
+    font-family: "Anton", sans-serif;
+
+}
+
+.head-content {
+    display: flex;
+    gap: 5px;
+    font-family: "Anton", sans-serif;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+    margin-right: 400px;
+    font-family: "Anton", sans-serif;
+}
+
+.right-header {
+    display: flex;
+    gap: 20px;
+}
+
+.section {
+    font-size: 0;
+}
+
+.third-image {
+    background-image: url('Twix3.avif');
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 86vh;
+}
+
+.footer-upside {
+    width: 100%;
+    height: 35%;
+    background-color: #E62B1E;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-upside-right {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Anton", sans-serif;
+}
+
+.footer-upside-icons {
+    display: flex;
+    gap: 25px;
+    font-size: 24px;
+}
+
+.footer-right-side {
+    display: flex;
+    gap: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    background-color: #E62B1E;
+    color: white;
+}
+.footer-center-end{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer-center-start {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    font-family: "Anton", sans-serif;
+}
+
+.footer-center-start h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.footer-last-content {
+    background: #E62B1E;
+    height: 150px;
+    padding-inline: 45px;
+    position: relative;
+
+    &::before {
+        content: "";
+        /* position: absolute; */
+        position: fixed;
+        margin-top: 430px;
+        right: 0;
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        background: #fda60f;
+        right: 30px;
+        top:50px;
+        box-shadow: 10px 5px 60px #000;
+        background-image: url('twix_header_icon\ -\ Copy.png');
+        background-position: center;
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        
+        
+
+    }
+
+}
+
+
+.footer-last-content h2 {
+    margin-top: 40px;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer-last-content button {
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: #E62B1E;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer-center-start h3{
+    font-weight: bold;
+    font-size: 20px ;
+}
+.footer-center-end h4{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
